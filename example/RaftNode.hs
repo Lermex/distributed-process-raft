@@ -4,6 +4,7 @@
 import Options.Applicative
 
 import Control.Monad (forM_)
+import Data.Monoid ((<>))
 import Control.Concurrent (threadDelay)
 import Control.Distributed.Process
 import Control.Distributed.Process.Node
